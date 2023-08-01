@@ -1,13 +1,20 @@
 :root {
   --main-font: "EB Garamond", serif;
   --secondary-font: "Oxygen", sans-serif;
+  --primary-color: #2d2d2b;
+  --secondary-color: #ffffff;
+  --complementary-color: #b0b0b0;
+  --accent-color: #eae6df;
+  --analogue-color: #5B5A58;
 }
 
 h1 {
   font-family: var(--main-font);
+  color: var(--primary-color);
 }
 
 h2 {
   font-family: var(--secondary-font);
   font-weight: 100;
+  color: var(--analogue-color);
 }
