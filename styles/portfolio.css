@@ -1,0 +1,13 @@
+:root {
+  --main-font: "EB Garamond", serif;
+  --secondary-font: "Oxygen", sans-serif;
+}
+
+h1 {
+  font-family: var(--main-font);
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  font-weight: 100;
+}
