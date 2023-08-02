@@ -123,3 +123,9 @@ h1 {
   color: var(--analogue-color);
   line-height: 30px;
 }
+
+.footer-section {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 40px 20px;
+}
