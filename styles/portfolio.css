@@ -4,15 +4,15 @@
   --primary-color: #2d2d2b;
   --secondary-color: #ffffff;
   --complementary-color: #b0b0b0;
-  --accent-color: #EEEEEE;
+  --accent-color: #eeeeee;
   --analogue-color: #5b5a58;
 }
 
 nav {
-  background-color: var(--accent-color);
+  background: var(--accent-color);
   color: var(-primary-color);
   font-family: var(--main-font);
-  height: 50px;
+  height: 60px;
 }
 
 .navbar-header {
@@ -25,6 +25,7 @@ nav {
 
 .navbar-collapse {
   background: var(--accent-color);
+  padding: 30px;
 }
 
 .navbar-brand {
@@ -32,12 +33,18 @@ nav {
   padding-left: 30px;
 }
 
-.navbar-nav .nav-link {
-  color: var(--primary-color);
+.navbar-nav .nav-item {
+  display: inline-block;
 }
 
-.navbar-nav .nav-link:hover {
-  color: var(--analogue-color);
+.navbar-nav .nav-link {
+  color: var(--primary-color);
+  display: block;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
 }
 
 h1 {
@@ -172,4 +179,33 @@ h1 {
   color: var(--secondary-color);
   text-decoration: none;
   font-size: 18px;
+}
+
+@media (max-width: 575.98px) {
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .phrase-section {
+    padding: 40px 20px;
+  }
+
+  .container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .section-3-img,
+  .section-3-content {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-section .col {
+    margin-bottom: 30px;
+  }
 }
