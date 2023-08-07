@@ -25,7 +25,7 @@ nav {
 
 .navbar-collapse {
   background: var(--accent-color);
-  padding: 30px;
+  padding-left: 30px;
 }
 
 .navbar-brand {
@@ -177,7 +177,7 @@ nav {
   font-size: 18px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 576px) {
   .nav {
     height: 40px;
   }
@@ -187,17 +187,12 @@ nav {
     padding: 0;
   }
 
-  .navbar-collapse {
-    font-size: 14px;
-    padding: 0px;
-  }
-
   .hero {
     padding: 80px 20px;
   }
 
   .hero h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .hero h2 {
@@ -206,6 +201,7 @@ nav {
 
   .hero h3 {
     font-size: 24px;
+    padding-top: 40px;
   }
 
   .phrase-section {
@@ -220,14 +216,22 @@ nav {
   .section-3-img,
   .section-3-content {
     text-align: center;
-    padding: 10px;
   }
 
   .about-section {
     flex-direction: column;
+    padding: 20px;
   }
 
   .about-section .col {
     margin-bottom: 30px;
+  }
+
+  .about-section h4 {
+    font-size: 20px;
+  }
+
+  .about-section p {
+    font-size: 14px;
   }
 }
