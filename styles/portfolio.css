@@ -43,18 +43,6 @@ nav {
   padding: 10px;
 }
 
-body {
-  margin: 0;
-}
-
-h1 {
-  font-family: var(--main-font);
-  font-size: 72px;
-  font-weight: 600;
-  letter-spacing: 7.2px;
-  color: var(--primary-color);
-}
-
 .hero {
   background-image: url("/images/header-background-fc.jpg");
   background-size: cover;
@@ -62,6 +50,14 @@ h1 {
   background-color: var(--accent-color);
   text-align: center;
   padding: 160px 20px;
+}
+
+.hero h1 {
+  font-family: var(--main-font);
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 7.2px;
+  color: var(--primary-color);
 }
 
 .hero h3 {
@@ -181,9 +177,35 @@ h1 {
   font-size: 18px;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 414px) {
+  .nav {
+    height: 40px;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .navbar-collapse {
+    font-size: 14px;
+    padding: 0px;
+  }
+
   .hero {
     padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .hero h3 {
+    font-size: 24px;
   }
 
   .phrase-section {
