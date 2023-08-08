@@ -170,7 +170,7 @@ nav {
 
 .header-container-contact h1 {
   font-family: var(--main-font);
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 600;
   letter-spacing: 7.2px;
   color: var(--primary-color);
@@ -186,10 +186,37 @@ nav {
   margin: auto 120px;
 }
 
-.info-section{
+.info-section {
   background: var(--accent-color);
   padding: 50px;
   text-align: center;
+}
+
+.info-section h3 {
+  font-family: var(--main-font);
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 7.2px;
+  color: var(--primary-color);
+}
+
+.info-section h5 {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--analogue-color);
+}
+
+.info-section p {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.info-section a{
+  text-decoration: none;
+  color: var(--main-color);
 }
 
 .footer-section {
@@ -198,7 +225,7 @@ nav {
   padding: 20px 15px;
 }
 
-.footer-content > div {
+.footer-content div {
   display: inline-block;
   vertical-align: middle;
 }
