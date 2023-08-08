@@ -159,10 +159,43 @@ nav {
   line-height: 30px;
 }
 
-.footer-section {
-  background-color: var(--primary-color);
+.header-container-contact {
+  background-image: url("/images/header-background-fc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--accent-color);
+  text-align: right;
+  padding: 120px 20px;
+}
+
+.header-container-contact h1 {
+  font-family: var(--main-font);
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 7.2px;
+  color: var(--primary-color);
+  margin: auto 120px;
+}
+
+.header-container-contact h2 {
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--analogue-color);
+  line-height: 30px;
+  margin: auto 120px;
+}
+
+.info-section{
+  background: var(--accent-color);
+  padding: 50px;
   text-align: center;
-  padding: 30px 20px;
+}
+
+.footer-section {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 20px 15px;
 }
 
 .footer-content > div {
